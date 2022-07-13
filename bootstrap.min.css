@@ -73,13 +73,14 @@ a.button1{
 
 
 body {
-  margin: 0;
+  margin-left: 250px;
+  margin-right: 250px;
   font-family: var(--bs-font-comic-sans);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: rgb(21, 21, 21);
+  background-color: #000;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
@@ -9047,7 +9048,7 @@ button.close {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
-  font-family: "ComicSansMS", cursive, sans-serif;
+  font-family: "ComicSansMS", sans-serif;
 }
 .wallet-adapter-dropdown-list-active {
   opacity: 1;
@@ -9148,7 +9149,7 @@ button.close {
   border-radius: 10px;
   background: #10141f;
   box-shadow: 0 8px 20px #0009;
-  font-family: "ComicSansMS", cursive, sans-serif;
+  font-family: "ComicSansMS", sans-serif;
   flex: 1;
 }
 .wallet-adapter-modal-wrapper .wallet-adapter-button {
