@@ -9002,7 +9002,7 @@ button.close {
   display: flex;
   align-items: center;
   font-family: "ComicSansMS", sans-serif;
-  font-size: 2.5rem;
+  font-size: calc(1.375rem + 1.5vw);
   font-weight: 600;
   height: 60px;
   line-height: 48px;
