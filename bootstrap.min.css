@@ -12,6 +12,13 @@
   src: local('Comic Sans MS'), local('ComicSansMS-Regular'),
       url(http://allfont.ru/cache/fonts/comic-sans-ms_53a8778a817839ef2dbc5dc94ce14334.woff) format('woff'),
       url(http://allfont.ru/cache/fonts/comic-sans-ms_53a8778a817839ef2dbc5dc94ce14334.ttf) format('truetype');
+      font-family: 'comicsansms_53a8778a817839ef2dbc5dc94ce14334';
+      src: url('fonts/comicsansms_53a8778a817839ef2dbc5dc94ce14334.eot');
+      src: url('fonts/comicsansms_53a8778a817839ef2dbc5dc94ce14334.eot') format('embedded-opentype'),
+           url('fonts/comicsansms_53a8778a817839ef2dbc5dc94ce14334.woff2') format('woff2'),
+           url('fonts/comicsansms_53a8778a817839ef2dbc5dc94ce14334.woff') format('woff'),
+           url('fonts/comicsansms_53a8778a817839ef2dbc5dc94ce14334.ttf') format('truetype'),
+           url('fonts/comicsansms_53a8778a817839ef2dbc5dc94ce14334.svg#comicsansms_53a8778a817839ef2dbc5dc94ce14334') format('svg');
 }
 
  :root {
