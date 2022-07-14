@@ -93644,7 +93644,7 @@ This typically indicates that your device does not have a healthy Internet conne
         null,
         r &&
           (0, Zce.createPortal)(
-            Ln.default.createElement("div", null, t, " / ", e),
+            Ln.default.createElement("div", null, t, "/", e, " minted"),
             r
           )
       )

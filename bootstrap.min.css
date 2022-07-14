@@ -6,11 +6,8 @@
  */
 
 
-@font-face {
-  font-family: ComicSansMS;
-  src: url("fonts/sfpro.otf");
-  font-weight: bold;
-}
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
  :root {
@@ -38,7 +35,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --bs-font-comic-sans: "ComicSansMS", sans-serif;
+    --bs-font-comic-sans: 'Poppins', sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(
@@ -54,7 +51,7 @@
 }
 
 html, body {
-    max-width: 80%;
+    max-width: 90%;
     overflow-x: hidden;
     height: 100%;
 }
@@ -150,6 +147,7 @@ background-size: 100%;
 .h2,
 h2 {
     font-size: calc(1.375rem + 1.5vw);
+
   background-color: #f3ec78;
   background-image: linear-gradient(45deg, #00e1ff, #ffffff);
   background-size: 100%;
@@ -166,13 +164,13 @@ h2 {
 }
 .h3,
 h3 {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(.5rem + 0.6vw);
   color: #555555;
 }
 @media (min-width: 1200px) {
   .h3,
   h3 {
-    font-size: 1.75rem;
+    font-size: 1.2rem;
   }
 }
 .h4,
@@ -191,7 +189,7 @@ h5 {
 }
 .h6,
 h6 {
-  font-size: 1rem;
+  font-size: .4rem;
 }
 p {
   margin-top: 0;
@@ -473,12 +471,13 @@ progress {
 }
 .display-1 {
   font-size: calc(2.5rem + 4.5vw);
-  font-weight: 300;
-  line-height: 1.2;
+  font-weight: 500;
+  line-height: 1;
 }
 @media (min-width: 1200px) {
   .display-1 {
     font-size: 10rem;
+    
   }
 }
 .display-2 {
@@ -512,24 +511,26 @@ progress {
   }
 }
 .display-5 {
-  font-size: calc(1.425rem + 2.1vw);
-  font-weight: 300;
+  font-size: calc(01rem + 1.5vw);
+  font-weight: 500;
   line-height: 1.2;
+  color: white;
+  display: inline-block;
 }
 @media (min-width: 1200px) {
   .display-5 {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
 }
 .display-6 {
-  font-size: calc(1.375rem + 1.5vw);
-  font-weight: 300;
-  line-height: 1.2;
+  font-size: calc(0.4em + 1.5vw);
+  font-weight: 500;
+  line-height: 1.4;
   color: #fff;
 }
 @media (min-width: 1200px) {
   .display-6 {
-    font-size: 2.5rem;
+    font-size: 1.2rem;
   }
 }
 .list-unstyled {
@@ -8995,13 +8996,13 @@ button.close {
   cursor: pointer;
   display: flex;
   align-items: center;
-  font-family: "ComicSansMS", sans-serif;
-  font-size: calc(.6rem + 1.5vw);
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(.3rem + 1vw);
   font-weight: 600;
-  height: 60px;
-  line-height: 48px;
+  height: auto;
+  line-height: 180%;
   padding: 0 32px;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 .wallet-adapter-button-trigger {
     background-color: #00d9ff;
@@ -9058,7 +9059,7 @@ button.close {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
-  font-family: "ComicSansMS", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .wallet-adapter-dropdown-list-active {
   opacity: 1;
@@ -9159,7 +9160,7 @@ button.close {
   border-radius: 10px;
   background: #10141f;
   box-shadow: 0 8px 20px #0009;
-  font-family: "ComicSansMS", sans-serif;
+  font-family: 'Poppins', sans-serif;
   flex: 1;
 }
 .wallet-adapter-modal-wrapper .wallet-adapter-button {
