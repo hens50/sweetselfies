@@ -9242,3 +9242,30 @@ button.close {
   color: #fff;
 }
 
+
+
+
+.soc-icon {
+  margin: 1em 1em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.soc-icon:hover {
+  opacity: 0.7;
+}
+
+.soc-icon-etherscan {
+  width: calc(1vw + 1.5em);
+  height: calc(1vw + 1.5em);
+}
+
+.soc-icon-twitter {
+  width: calc(1vw + 1.5em);
+  height: calc(1vw + 1.5em);
+}
+
+.soc-icon-opensea {
+  width: calc(1vw + 1.5em);
+  height: calc(1vw + 1.5em);
+}
